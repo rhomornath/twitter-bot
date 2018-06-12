@@ -42,7 +42,7 @@ const GenerateMessage = name => {
   const d = new Date();
   const dayName = days[d.getDay()];
   return `Hi ${name} Thanks for .... \n Happy ${dayName} 😊😊 `; // your message
-  // My message   return `Hi ${name} Thanks for being a part of my social media network. I'am the @PicsrushE founder,A new Online Image Editor completely with web technologies,I'm also a reactjs developer and medium blogger.\n Happy to discuss anytime 😊  \n Happy ${dayName} 😊😊 `;
+  // My message   return `Hello, ${name} Thanks for following me! You probably noticed if you browsed my profile, but if not, let me tell you: I'm a writer and blogger. In my blog, I post mostly flash fiction. It would be great if you give it a shot: ispreadwords.wordpress.com \n Also, I want you to know I've recently published my first novella, My Last Foster Mom, a story about two very different women drawn together by their circumstances. If you feel like reading a short story (and helping an indie author grow), you can grab a copy here: http://books2read.com/u/3G92Mr \n Have a wonderful ${dayName} ${name} `;
 };
 
 module.exports = AutoDM;
